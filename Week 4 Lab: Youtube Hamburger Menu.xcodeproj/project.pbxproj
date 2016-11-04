@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4AF996B41DCC2590005278CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF996B31DCC2590005278CE /* AppDelegate.swift */; };
+		4AF996B61DCC2590005278CE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF996B51DCC2590005278CE /* ViewController.swift */; };
+		4AF996B91DCC2590005278CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AF996B71DCC2590005278CE /* Main.storyboard */; };
+		4AF996BB1DCC2590005278CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AF996BA1DCC2590005278CE /* Assets.xcassets */; };
+		4AF996BE1DCC2590005278CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AF996BC1DCC2590005278CE /* LaunchScreen.storyboard */; };
+		4AF996C91DCC2590005278CE /* Week_4_Lab__Youtube_Hamburger_MenuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF996C81DCC2590005278CE /* Week_4_Lab__Youtube_Hamburger_MenuTests.swift */; };
+		4AF996D41DCC2590005278CE /* Week_4_Lab__Youtube_Hamburger_MenuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF996D31DCC2590005278CE /* Week_4_Lab__Youtube_Hamburger_MenuUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4AF996C51DCC2590005278CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4AF996A81DCC2590005278CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4AF996AF1DCC2590005278CE;
+			remoteInfo = "Week 4 Lab: Youtube Hamburger Menu";
+		};
+		4AF996D01DCC2590005278CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4AF996A81DCC2590005278CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4AF996AF1DCC2590005278CE;
+			remoteInfo = "Week 4 Lab: Youtube Hamburger Menu";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4AF996B01DCC2590005278CE /* Week 4 Lab: Youtube Hamburger Menu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Week 4 Lab: Youtube Hamburger Menu.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AF996B31DCC2590005278CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4AF996B51DCC2590005278CE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4AF996B81DCC2590005278CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4AF996BA1DCC2590005278CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4AF996BD1DCC2590005278CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4AF996BF1DCC2590005278CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AF996C41DCC2590005278CE /* Week 4 Lab: Youtube Hamburger MenuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Week 4 Lab: Youtube Hamburger MenuTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AF996C81DCC2590005278CE /* Week_4_Lab__Youtube_Hamburger_MenuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Week_4_Lab__Youtube_Hamburger_MenuTests.swift; sourceTree = "<group>"; };
+		4AF996CA1DCC2590005278CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AF996CF1DCC2590005278CE /* Week 4 Lab: Youtube Hamburger MenuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Week 4 Lab: Youtube Hamburger MenuUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AF996D31DCC2590005278CE /* Week_4_Lab__Youtube_Hamburger_MenuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Week_4_Lab__Youtube_Hamburger_MenuUITests.swift; sourceTree = "<group>"; };
+		4AF996D51DCC2590005278CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4AF996AD1DCC2590005278CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AF996C11DCC2590005278CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AF996CC1DCC2590005278CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4AF996A71DCC2590005278CE = {
+			isa = PBXGroup;
+			children = (
+				4AF996B21DCC2590005278CE /* Week 4 Lab: Youtube Hamburger Menu */,
+				4AF996C71DCC2590005278CE /* Week 4 Lab: Youtube Hamburger MenuTests */,
+				4AF996D21DCC2590005278CE /* Week 4 Lab: Youtube Hamburger MenuUITests */,
+				4AF996B11DCC2590005278CE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4AF996B11DCC2590005278CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4AF996B01DCC2590005278CE /* Week 4 Lab: Youtube Hamburger Menu.app */,
+				4AF996C41DCC2590005278CE /* Week 4 Lab: Youtube Hamburger MenuTests.xctest */,
+				4AF996CF1DCC2590005278CE /* Week 4 Lab: Youtube Hamburger MenuUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4AF996B21DCC2590005278CE /* Week 4 Lab: Youtube Hamburger Menu */ = {
+			isa = PBXGroup;
+			children = (
+				4AF996B31DCC2590005278CE /* AppDelegate.swift */,
+				4AF996B51DCC2590005278CE /* ViewController.swift */,
+				4AF996B71DCC2590005278CE /* Main.storyboard */,
+				4AF996BA1DCC2590005278CE /* Assets.xcassets */,
+				4AF996BC1DCC2590005278CE /* LaunchScreen.storyboard */,
+				4AF996BF1DCC2590005278CE /* Info.plist */,
+			);
+			path = "Week 4 Lab: Youtube Hamburger Menu";
+			sourceTree = "<group>";
+		};
+		4AF996C71DCC2590005278CE /* Week 4 Lab: Youtube Hamburger MenuTests */ = {
+			isa = PBXGroup;
+			children = (
+				4AF996C81DCC2590005278CE /* Week_4_Lab__Youtube_Hamburger_MenuTests.swift */,
+				4AF996CA1DCC2590005278CE /* Info.plist */,
+			);
+			path = "Week 4 Lab: Youtube Hamburger MenuTests";
+			sourceTree = "<group>";
+		};
+		4AF996D21DCC2590005278CE /* Week 4 Lab: Youtube Hamburger MenuUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4AF996D31DCC2590005278CE /* Week_4_Lab__Youtube_Hamburger_MenuUITests.swift */,
+				4AF996D51DCC2590005278CE /* Info.plist */,
+			);
+			path = "Week 4 Lab: Youtube Hamburger MenuUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4AF996AF1DCC2590005278CE /* Week 4 Lab: Youtube Hamburger Menu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AF996D81DCC2590005278CE /* Build configuration list for PBXNativeTarget "Week 4 Lab: Youtube Hamburger Menu" */;
+			buildPhases = (
+				4AF996AC1DCC2590005278CE /* Sources */,
+				4AF996AD1DCC2590005278CE /* Frameworks */,
+				4AF996AE1DCC2590005278CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Week 4 Lab: Youtube Hamburger Menu";
+			productName = "Week 4 Lab: Youtube Hamburger Menu";
+			productReference = 4AF996B01DCC2590005278CE /* Week 4 Lab: Youtube Hamburger Menu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4AF996C31DCC2590005278CE /* Week 4 Lab: Youtube Hamburger MenuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AF996DB1DCC2590005278CE /* Build configuration list for PBXNativeTarget "Week 4 Lab: Youtube Hamburger MenuTests" */;
+			buildPhases = (
+				4AF996C01DCC2590005278CE /* Sources */,
+				4AF996C11DCC2590005278CE /* Frameworks */,
+				4AF996C21DCC2590005278CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4AF996C61DCC2590005278CE /* PBXTargetDependency */,
+			);
+			name = "Week 4 Lab: Youtube Hamburger MenuTests";
+			productName = "Week 4 Lab: Youtube Hamburger MenuTests";
+			productReference = 4AF996C41DCC2590005278CE /* Week 4 Lab: Youtube Hamburger MenuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4AF996CE1DCC2590005278CE /* Week 4 Lab: Youtube Hamburger MenuUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AF996DE1DCC2590005278CE /* Build configuration list for PBXNativeTarget "Week 4 Lab: Youtube Hamburger MenuUITests" */;
+			buildPhases = (
+				4AF996CB1DCC2590005278CE /* Sources */,
+				4AF996CC1DCC2590005278CE /* Frameworks */,
+				4AF996CD1DCC2590005278CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4AF996D11DCC2590005278CE /* PBXTargetDependency */,
+			);
+			name = "Week 4 Lab: Youtube Hamburger MenuUITests";
+			productName = "Week 4 Lab: Youtube Hamburger MenuUITests";
+			productReference = 4AF996CF1DCC2590005278CE /* Week 4 Lab: Youtube Hamburger MenuUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4AF996A81DCC2590005278CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Nicholas Naudé";
+				TargetAttributes = {
+					4AF996AF1DCC2590005278CE = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = MZLXP99C33;
+						ProvisioningStyle = Automatic;
+					};
+					4AF996C31DCC2590005278CE = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = MZLXP99C33;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4AF996AF1DCC2590005278CE;
+					};
+					4AF996CE1DCC2590005278CE = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = MZLXP99C33;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4AF996AF1DCC2590005278CE;
+					};
+				};
+			};
+			buildConfigurationList = 4AF996AB1DCC2590005278CE /* Build configuration list for PBXProject "Week 4 Lab: Youtube Hamburger Menu" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4AF996A71DCC2590005278CE;
+			productRefGroup = 4AF996B11DCC2590005278CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4AF996AF1DCC2590005278CE /* Week 4 Lab: Youtube Hamburger Menu */,
+				4AF996C31DCC2590005278CE /* Week 4 Lab: Youtube Hamburger MenuTests */,
+				4AF996CE1DCC2590005278CE /* Week 4 Lab: Youtube Hamburger MenuUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4AF996AE1DCC2590005278CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AF996BE1DCC2590005278CE /* LaunchScreen.storyboard in Resources */,
+				4AF996BB1DCC2590005278CE /* Assets.xcassets in Resources */,
+				4AF996B91DCC2590005278CE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AF996C21DCC2590005278CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AF996CD1DCC2590005278CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4AF996AC1DCC2590005278CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AF996B61DCC2590005278CE /* ViewController.swift in Sources */,
+				4AF996B41DCC2590005278CE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AF996C01DCC2590005278CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AF996C91DCC2590005278CE /* Week_4_Lab__Youtube_Hamburger_MenuTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AF996CB1DCC2590005278CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AF996D41DCC2590005278CE /* Week_4_Lab__Youtube_Hamburger_MenuUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4AF996C61DCC2590005278CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4AF996AF1DCC2590005278CE /* Week 4 Lab: Youtube Hamburger Menu */;
+			targetProxy = 4AF996C51DCC2590005278CE /* PBXContainerItemProxy */;
+		};
+		4AF996D11DCC2590005278CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4AF996AF1DCC2590005278CE /* Week 4 Lab: Youtube Hamburger Menu */;
+			targetProxy = 4AF996D01DCC2590005278CE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4AF996B71DCC2590005278CE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4AF996B81DCC2590005278CE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4AF996BC1DCC2590005278CE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4AF996BD1DCC2590005278CE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4AF996D61DCC2590005278CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4AF996D71DCC2590005278CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4AF996D91DCC2590005278CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MZLXP99C33;
+				INFOPLIST_FILE = "Week 4 Lab: Youtube Hamburger Menu/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nicholasnaude.Week-4-Lab--Youtube-Hamburger-Menu";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		4AF996DA1DCC2590005278CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MZLXP99C33;
+				INFOPLIST_FILE = "Week 4 Lab: Youtube Hamburger Menu/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nicholasnaude.Week-4-Lab--Youtube-Hamburger-Menu";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		4AF996DC1DCC2590005278CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = MZLXP99C33;
+				INFOPLIST_FILE = "Week 4 Lab: Youtube Hamburger MenuTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nicholasnaude.Week-4-Lab--Youtube-Hamburger-MenuTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Week 4 Lab: Youtube Hamburger Menu.app/Week 4 Lab: Youtube Hamburger Menu";
+			};
+			name = Debug;
+		};
+		4AF996DD1DCC2590005278CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = MZLXP99C33;
+				INFOPLIST_FILE = "Week 4 Lab: Youtube Hamburger MenuTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nicholasnaude.Week-4-Lab--Youtube-Hamburger-MenuTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Week 4 Lab: Youtube Hamburger Menu.app/Week 4 Lab: Youtube Hamburger Menu";
+			};
+			name = Release;
+		};
+		4AF996DF1DCC2590005278CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = MZLXP99C33;
+				INFOPLIST_FILE = "Week 4 Lab: Youtube Hamburger MenuUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nicholasnaude.Week-4-Lab--Youtube-Hamburger-MenuUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Week 4 Lab: Youtube Hamburger Menu";
+			};
+			name = Debug;
+		};
+		4AF996E01DCC2590005278CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = MZLXP99C33;
+				INFOPLIST_FILE = "Week 4 Lab: Youtube Hamburger MenuUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nicholasnaude.Week-4-Lab--Youtube-Hamburger-MenuUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Week 4 Lab: Youtube Hamburger Menu";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4AF996AB1DCC2590005278CE /* Build configuration list for PBXProject "Week 4 Lab: Youtube Hamburger Menu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AF996D61DCC2590005278CE /* Debug */,
+				4AF996D71DCC2590005278CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4AF996D81DCC2590005278CE /* Build configuration list for PBXNativeTarget "Week 4 Lab: Youtube Hamburger Menu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AF996D91DCC2590005278CE /* Debug */,
+				4AF996DA1DCC2590005278CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4AF996DB1DCC2590005278CE /* Build configuration list for PBXNativeTarget "Week 4 Lab: Youtube Hamburger MenuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AF996DC1DCC2590005278CE /* Debug */,
+				4AF996DD1DCC2590005278CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4AF996DE1DCC2590005278CE /* Build configuration list for PBXNativeTarget "Week 4 Lab: Youtube Hamburger MenuUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AF996DF1DCC2590005278CE /* Debug */,
+				4AF996E01DCC2590005278CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4AF996A81DCC2590005278CE /* Project object */;
+}
